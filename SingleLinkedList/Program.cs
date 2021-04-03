@@ -61,11 +61,11 @@ namespace SingleLinedkList
     {
         static void Main(string[] args)
         {
-            Node node1 = new Node(1000);
-            Node node2 = node1.InsertNext(2000);
-            Node node3 = node2.InsertNext(3000);
-            Node node4 = node3.InsertNext(4000);
-            Node node5 = node4.InsertNext(5000);
+            Node node1 = new Node(100);
+            Node node2 = node1.InsertNext(200);
+            Node node3 = node2.InsertNext(300);
+            Node node4 = node3.InsertNext(400);
+            Node node5 = node4.InsertNext(500);
             node1.Traverse(null);
             Console.WriteLine("Deleting from Linked List...");
             node3.DeleteNext();
